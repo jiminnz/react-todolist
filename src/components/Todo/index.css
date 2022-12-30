@@ -1,0 +1,7 @@
+.todoItem {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
