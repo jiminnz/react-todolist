@@ -22,13 +22,12 @@ class TodoPage extends React.Component {
         this.inputRef.current.value = ''
     }
 
-
     todoElement = () => {
         return (
-            this.state.todoList.map(() => {
+            this.state.todoList.map((text) => {
                 return(
                     <li>
-                        <Todo todoText={this.state.todoList}/>
+                        <Todo todoText={text}/>
                     </li>
                 )
             })
